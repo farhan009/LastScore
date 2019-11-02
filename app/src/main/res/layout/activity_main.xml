@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Score"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/score_TextView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/increase_Button_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Increase"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/decrease_Button_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Decrease"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+</LinearLayout>
